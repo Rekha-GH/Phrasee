@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Patient Tests Patient renders correctly 1`] = `
+<div
+  className="patient-item"
+>
+  name: 
+  Adam S
+  <br />
+  joined: 
+  6 August 2020
+  <br />
+  Last visit: 
+  6 August 2020
+  <br />
+  Completed: 
+  no
+</div>
+`;

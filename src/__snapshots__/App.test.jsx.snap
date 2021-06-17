@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Tests App renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <header>
+    <img
+      alt="logo"
+      src="./images/dhg_whole.png"
+    />
+  </header>
+  <ProvideAuth>
+    <BrowserRouter>
+      <Switch>
+        <Route
+          path="/login"
+        >
+          <LoginPage />
+        </Route>
+        <PrivateRoute
+          path="/"
+        >
+          <PatientPage />
+        </PrivateRoute>
+      </Switch>
+    </BrowserRouter>
+  </ProvideAuth>
+  <footer />
+</Provider>
+`;

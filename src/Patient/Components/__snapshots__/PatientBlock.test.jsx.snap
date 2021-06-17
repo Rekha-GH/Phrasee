@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientBlock Tests PatientBlock renders correctly when list is available 1`] = `
+<Fragment>
+  <h4
+    className="patient-title"
+  >
+    A Level
+  </h4>
+  <Patient
+    is_completed={false}
+    joined="2020-08-06T07:54:00.232Z"
+    last_visit_date="2020-08-06T00:00:00.000Z"
+    name="Adam S"
+  />
+</Fragment>
+`;
+
+exports[`PatientBlock Tests PatientBlock renders correctly when list is not available 1`] = `<Fragment />`;
